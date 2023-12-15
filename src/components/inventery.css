@@ -1,0 +1,63 @@
+.inventory-container{
+    padding: 20px;
+    text-align: center;
+}
+.inventory-heading {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.inventory-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inventory-form .input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .input-field label{
+    text-align: left;
+    font-size: 14px;
+    font-weight:  600;
+  }
+  .input-field input{
+    border: 2px solid var(--border-color);
+    outline: none;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0px 10px;
+    transition: all 0.3s;
+  }
+  .input-field select{
+    border: 2px solid var(--border-color);
+    outline: none;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0px 10px;
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  .cancel-btn{
+    width: 100%;
+    margin: 20px 0;
+    padding: 12px 0;
+    border-radius: 12px;
+    color: #2FA551;
+    outline: none;
+    border: 1px solid;
+  }
+
+  .save-btn{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 12px;
+    background: #2FA551;
+    outline: none;
+    border: none;
+    color: white;
+  }

@@ -1,0 +1,107 @@
+.property-setup-container {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    height: 100vh;
+    overflow: auto;
+}
+
+.property-setup-container::-webkit-scrollbar {
+    display: none;
+}
+
+.property-setup-container>h2 {
+    text-align: center;
+}
+
+.logo-uploader {
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 342px;
+    height: 140px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+/* .logo-uploader input[type="file"] {
+    display: none;
+  } */
+.business-info-container {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.busines-info-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.business-info-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.business-info-form .business-info-form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.business-info-form-field label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.business-info-form-field input,
+select {
+    border: 2px solid var(--border-color);
+    outline: none;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0 10px;
+    transition: all 0.3s;
+}
+
+.business-info-form-field input:focus{
+    border: 2px solid var(--bg-color);
+}
+.business-info-form-field select:focus{
+    border: 2px solid var(--bg-color);
+}
+
+.add-inventory-cont {
+    border-radius: 16px;
+    border: 1px solid #2FA551;
+    background: #F9FAFB;
+    width: 150px;
+    display: flex;
+    /* gap: 10px; */
+    align-items: center;
+    color: #2FA551;
+}
+
+.add-inven-icon {
+    width: 24px;
+    height: 24px;
+    
+    border-radius: 50%;
+    margin: 4px 4px;
+}
+
+.business-info-btn{
+    padding: 12px 0;
+    width: 100%;
+    margin-top: 20px;
+    background: #E5E7EB;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #9CA3AF;
+}
